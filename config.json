@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "OPEN_PALM": "space",
+    "FIST": "w",
+    "THUMBS_UP": "enter",
+    "VICTORY": "ctrl+w",
+    "POINT": "left"
+  },
+  "trigger_mode": "tap",
+  "sustain_frames": 4,
+  "cooldown_ms": 300,
+  "show_landmarks": true,
+  "camera_index": 0,
+  "mirror_camera": true
+}
