@@ -1,3 +1,27 @@
+# --- Virtual Environment ---
+# This is the most important one! It contains all installed libraries
+# and is specific to your operating system. It should never be committed.
+gesture_env/
+venv/
+
+# --- Python Cache ---
+# These folders are automatically created by Python to run your code faster.
+# They can be safely ignored and will be regenerated as needed.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- IDE and Editor Configuration ---
+# These folders are created by code editors and contain user-specific settings.
+.vscode/
+.idea/
+
+# --- Operating System Files ---
+# Common OS-specific files that should not be in the repository.
+.DS_Store
+Thumbs.db
+
 henv
 __pycache__
 .pyc
