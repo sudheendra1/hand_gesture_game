@@ -2,6 +2,7 @@
 # This is the most important one! It contains all installed libraries
 # and is specific to your operating system. It should never be committed.
 gesture_env/
+gesture_env_sudhi/
 venv/
 
 # --- Python Cache ---

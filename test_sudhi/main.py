@@ -16,7 +16,7 @@ def load_config(path="config.json"):
 def draw_hud(frame, gesture, mapped, active=True):
     h, w = frame.shape[:2]
     status = "ACTIVE" if active else "PAUSED"
-    cv2.rectangle(frame, (0, 0), (w, 50), (0, 0, 0), -1)
+    cv2.rectangle(frame, (0, 0), (w, 100), (0, 0, 0), -1)
     cv2.putText(frame, f"Status: {status}", (10, 32), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0) if active else (0, 200, 200), 2)
     cv2.putText(frame, f"Gesture: {gesture}", (250, 32), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
     cv2.putText(frame, f"Mapped: {mapped}", (520, 32), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (200, 255, 200), 2)
